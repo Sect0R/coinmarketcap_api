@@ -4,7 +4,9 @@ You can use it as example or for hiring tests.
 
 ## Usage
 
-> npm run start --port=5000 --api_key=[CMC_PRO_API_KEY]
+```bash
+npm run start --port=5000 --api_key=[CMC_PRO_API_KEY]
+```
 
 **If you don't have API KEY - follow instructions https://coinmarketcap.com/api/documentation/v1/#**
 
