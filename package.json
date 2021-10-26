@@ -1,0 +1,30 @@
+{
+  "name": "coinmarketcap_api",
+  "version": "1.0.0",
+  "description": "Coinmarketcap.com API Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sect0R/coinmarketcap_api.git"
+  },
+  "keywords": [
+    "coinmarketcap",
+    "api",
+    "wrapper"
+  ],
+  "author": "Odinets Ruslan aka Sect0R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sect0R/coinmarketcap_api/issues"
+  },
+  "homepage": "https://github.com/Sect0R/coinmarketcap_api#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
