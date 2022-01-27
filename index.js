@@ -21,12 +21,14 @@ const requestOptions = {
 //Init Middleware
 app.use([express.json({extended: false}), cors()]);
 
-app.get('/list', (req, res) => {
+app.get('/list', (req, res, next) => {
     if (Number(req.query.start) < 1) {
         res.json({
             success: false,
             error: 'Start must be greater than 0',
         });
+
+        return;
     }
 
     const start = req.query.start || 1;
