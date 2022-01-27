@@ -4,7 +4,11 @@ You can use it as example or for hiring tests.
 
 ## Usage
 
-```bash
+```shell
+npm install
+```
+
+```shell
 npm run start --port=5000 --api_key=[CMC_PRO_API_KEY]
 ```
 

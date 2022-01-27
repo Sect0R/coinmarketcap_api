@@ -22,6 +22,13 @@ const requestOptions = {
 app.use([express.json({extended: false}), cors()]);
 
 app.get('/list', (req, res) => {
+    if (Number(req.query.start) < 1) {
+        res.json({
+            success: false,
+            error: 'Start must be greater than 0',
+        });
+    }
+
     const start = req.query.start || 1;
     const limit = req.query.limit || 10;
 
